@@ -9,17 +9,19 @@ body,
 .content {
   height: 3000px; }
 
-.navbar-collapse {
-  padding-left: 65%; }
-
 .jumbotron {
-  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+  background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
   background-size: cover;
   color: white;
   position: relative;
   display: block;
   margin-top: 20px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  min-height: 600px; }
+  .jumbotron-content {
+    padding-top: 100px;
+    position: fixed;
+    top: 60px; }
 
 .accordion button {
   color: black; }
@@ -39,3 +41,14 @@ body,
   right: 30px;
   top: 15px;
   font-size: 30px; }
+
+.carousel img {
+  max-height: 600px; }
+
+.modall {
+  padding-top: 10px;
+  text-align: center; }
+  .modall-btn {
+    background-color: black; }
+  .modall-btn:hover {
+    background-color: #4d4b4b; }
