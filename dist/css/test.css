@@ -15,6 +15,7 @@ body,
   color: white;
   position: relative;
   display: block;
+  margin-top: 20px;
   margin-bottom: 0;
   min-height: 600px; }
   .jumbotron-content {
